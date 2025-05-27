@@ -43,6 +43,6 @@ print(d.Mul(a,b))
 ## Output Example
 ![image](https://github.com/user-attachments/assets/2bde3c76-5410-4027-b9a0-cb1a86f1b339)
 
-##Result
+## Result
      Thus the program demonstrates **multiple inheritance** by performing basic arithmetic operations — Addition, Subtraction, and Division — using three classes has been executed successfully.
 
