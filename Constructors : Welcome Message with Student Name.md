@@ -11,6 +11,7 @@ To write a Python program that creates a **Student** class with a **default cons
 5. **Execute the Program**: Instantiate the `Student` class and call the `show` method.
 
 ## 🧾 Program
+```
 class Student:
     def _init_(self,a):
         self.a=a
@@ -22,9 +23,9 @@ class Student:
 obj=Student()
 obj.get()
 obj.info()
-
+```
 ## Output
 ![image](https://github.com/user-attachments/assets/59d25fe5-1785-44b5-be5c-156c2b3d6b95)
 
 ## Result
-   Thus the program that creates a **Student** class with a **default constructor** and a method to display a welcome message along with the student’s name provided by the user as been excucited successfully
+   Thus the program that creates a **Student** class with a **default constructor** and a method to display a welcome message along with the student’s name provided by the user has been executed successfully
