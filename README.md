@@ -53,7 +53,7 @@ The program defines a class Demo with:
    - Create an instance of the Demo class.
    - Delete the object using the del keyword.
 ## Program
-
+```
 class Demo:
     def __init__(self):
         print("Hello World!")
@@ -64,7 +64,7 @@ class Demo:
 # Create and delete the object
 obj = Demo()
 del obj
-
+```
 ## 🧪 Output
 ![image](https://github.com/user-attachments/assets/6f8bcf5b-a9e6-4e67-b364-9c071fa39eff)
 
@@ -106,7 +106,7 @@ To write a Python program that uses *Hierarchical Inheritance* to input and disp
 
 ## Program
 # hierarchical inheritance
-
+```
 class Details:
     def __init__(self):
         self.__id="<No Id>"
@@ -166,7 +166,7 @@ print("\nPatient Object")
 d = Patient()
 d.setEmployee(id1, nam, gen, hosp, dep)
 d.showEmployee()
-
+```
 ## Sample Output
 ![image](https://github.com/user-attachments/assets/4ac30ecc-1599-4655-b2ba-eb2876b7fb99)
 
@@ -201,7 +201,7 @@ To write a Python program that uses multilevel inheritance to get and display a 
    - Print all details using class methods.
 
 ## Program
-
+```
 class Parent:
    def __init__(self,name):
      self.name = name
@@ -224,7 +224,7 @@ age=int(input())
 loc=input()
 gc = Grandchild(name,age,loc)
 print(gc.getName(), gc.getAge(), gc.getLocation())
-
+```
 
 ## Sample Output
 ![image](https://github.com/user-attachments/assets/ce818880-c564-41c4-bb69-e21510235697)
@@ -258,6 +258,7 @@ To write a Python program to calculate *Add, Sub & Division* using *Multiple Inh
    - Display the results of the three operations.
 
 ## 💻 Program 
+```
 class Calculation1:  
     def Summation(self,a,b):  
         return a+b;  
@@ -273,7 +274,7 @@ d = Derived()
 print(d.Summation(a,b))  
 print(d.sub(a,b))  
 print(d.Mul(a,b))
-
+```
 ## Output Example
 ![image](https://github.com/user-attachments/assets/2bde3c76-5410-4027-b9a0-cb1a86f1b339)
 
